@@ -1,0 +1,4 @@
+**/*.generated.ts
+**/*.private.ts
+**/*.public.ts
+src/schema/*
