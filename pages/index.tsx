@@ -9,9 +9,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>
+      <div className="bg-red-900">
+      <h1 className="text-beerus-50 bg-slate-600">
         Welcome to Property listing
       </h1>
+      </div>
     </>
   )
 }

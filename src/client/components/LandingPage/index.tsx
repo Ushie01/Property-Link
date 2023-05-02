@@ -1,6 +1,6 @@
 const LandingPage = () => {
   return (
-    <div>Every component related to only landing pages</div>
+    <div className="bg-picollo-50">Every component related to only landing pages</div>
   )
 }
 
