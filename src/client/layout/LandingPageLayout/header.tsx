@@ -1,4 +1,4 @@
-import cancel from "../../../assest/x-lg.svg";
+import cancel from "./../../../assets/arrow-up.svg";
 import ButtonOne from "@/client/shared/buttonOne";
 import Image from "next/image";
 
