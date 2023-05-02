@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
+  ],
+  presets: [
+    require('@heathmont/moon-core-tw/lib/private/presets/ds-moon-preset'),
   ],
   theme: {
     screens: {},
@@ -40,7 +44,7 @@ module.exports = {
         },
         gohan: {
           50: '#F5F5F5',
-          100: '#1F1F1F'
+          100: '#1F1F1F',
         },
         bulma: { 50: '#F5F5F5', 100: '#000000' },
         trunks: { 50: '#999CA0', 100: '#999CA0' },
@@ -71,5 +75,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [ require('tailwindcss-rtl')],
 };
