@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import '@heathmont/moon-themes-tw/lib/moon.css';
 @layer components {
   .inline-container {
       @apply flex flex-wrap items-center justify-start [&_li]: list-none;

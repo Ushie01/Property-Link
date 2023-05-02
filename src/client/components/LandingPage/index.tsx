@@ -1,6 +1,11 @@
+import {ArrowsUp} from '@heathmont/moon-icons-tw'
+import GridDots from '../Svg/GridDots'
 const LandingPage = () => {
   return (
-    <div className="bg-picollo-50">Every component related to only landing pages</div>
+    <div>
+      <ArrowsUp fontSize={48}/>
+      <GridDots />
+    </div>
   )
 }
 
