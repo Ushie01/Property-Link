@@ -1,6 +1,14 @@
+import Header from "@/client/layout/LandingPageLayout/header"
+import Footer from "@/client/layout/LandingPageLayout/footer"
+
+
 const LandingPage = () => {
   return (
-    <div className="bg-picollo-50">Every component related to only landing pages</div>
+    <>
+      <Header />
+      <hr className="bg-gray-400"/>
+      <Footer />
+    </>
   )
 }
 

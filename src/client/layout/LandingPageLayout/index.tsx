@@ -1,7 +1,7 @@
 const LandingPageLayout = () => {
   return (
-    <div>jsx goes here</div>
+    <div></div>
   )
 }
 
-export default LandingPageLayout
+export default LandingPageLayout;
