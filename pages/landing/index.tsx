@@ -1,5 +1,5 @@
 import LandingPage from '@/client/components/LandingPage';
-import type { GetServerSideProps, NextPage } from 'next';
+import type { NextPage } from 'next';
 
 
 const LandingPages: NextPage = (props) => (

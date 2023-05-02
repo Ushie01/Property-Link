@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-  .inline-container {
-    @apply flex flex-wrap items-center justify-start [&_li]:list-none;
-  }
-}
