@@ -31,15 +31,15 @@ const Footer = () => {
             <div className="lg:flex lg:flex-row grid grid-cols-2 items-start lg:justify-center md:justify-start lg:text-sm text-lg lg:space-x-24 mt-20">
                 <div className="flex flex-col items-start justify-center space-y-4">
                     <p className="text-picollo-50 font-bold">About Us</p>
-                    <NextLink items={aboutUs} column={true} distance='3' />
+                    <NextLink items={aboutUs} column={true} />
                 </div>
                 <div className="flex flex-col items-start justify-center space-y-4">
                     <p className="text-picollo-50 font-bold">Properties</p>
-                    <NextLink items={properties} column={true} distance='3'/>
+                    <NextLink items={properties} column={true} />
                 </div>
                 <div className="flex flex-col items-start justify-center space-y-4 lg:mt-0 mt-5">
                     <p className="text-picollo-50 font-bold">Support Channel</p>
-                    <NextLink items={channels} column={true} distance='3' />
+                    <NextLink items={channels} column={true}  />
                 </div>
             </div>
             
