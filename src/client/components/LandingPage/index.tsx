@@ -1,14 +1,12 @@
-import Header from "@/client/layout/LandingPageLayout/header"
-import Footer from "@/client/layout/LandingPageLayout/footer"
-
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 const LandingPage = () => {
   return (
-    <>
-      <Header />
-      <hr className="bg-gray-400"/>
-      <Footer />
-    </>
+    <div>
+     <Header/>
+     <Footer/>
+    </div>
   )
 }
 

@@ -1,7 +1,5 @@
 const BaseLayout = () => {
-  return (
-    <div>BaseLayout</div>
-  )
-}
+  return <div>BaseLayout</div>;
+};
 
-export default BaseLayout
+export default BaseLayout;

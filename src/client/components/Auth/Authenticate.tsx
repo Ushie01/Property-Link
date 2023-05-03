@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Authenticate = () => {
-  return (
-    <div>Every component related to Auth goees in this folder</div>
-  )
-}
+  return <div>Every component related to Auth goees in this folder</div>;
+};
 
-export default Authenticate
+export default Authenticate;
