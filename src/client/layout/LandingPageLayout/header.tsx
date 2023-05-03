@@ -13,6 +13,7 @@ const Header = () => {
                     <NextLink
                         items={nav}
                         column={false}
+                        href='#'
                     />
                     <div>
                         <Button width='32' text='Sign Up' />
@@ -36,6 +37,7 @@ const Header = () => {
                     <NextLink
                         items={nav}
                         column={true}
+                        href='#'
                     />
                 </div>
             </div>
