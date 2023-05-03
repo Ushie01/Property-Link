@@ -1,5 +1,11 @@
-const GridDots =  () => (
-    <svg width="76" height="48" viewBox="0 0 76 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+type gridDotPros = {
+    width: string,
+    height: string,
+    color: string
+}
+
+const GridDots = ({ width, height, color }: gridDotPros) => (
+    <svg width={width} height={height} color={color} viewBox="0 0 76 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="3" cy="45" r="3" transform="rotate(-90 3 45)" fill="#D8D4FF"/>
 <circle cx="3" cy="31" r="3" transform="rotate(-90 3 31)" fill="#D8D4FF"/>
 <circle cx="3" cy="17" r="3" transform="rotate(-90 3 17)" fill="#D8D4FF"/>

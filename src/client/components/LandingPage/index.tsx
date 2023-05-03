@@ -1,11 +1,14 @@
-import {ArrowsUp} from '@heathmont/moon-icons-tw'
-import GridDots from '../Svg/GridDots'
+import Header from "@/client/layout/LandingPageLayout/header"
+import Footer from "@/client/layout/LandingPageLayout/footer"
+
+
 const LandingPage = () => {
   return (
-    <div>
-      <ArrowsUp fontSize={48}/>
-      <GridDots />
-    </div>
+    <>
+      <Header />
+      <hr className="bg-gray-400"/>
+      <Footer />
+    </>
   )
 }
 
