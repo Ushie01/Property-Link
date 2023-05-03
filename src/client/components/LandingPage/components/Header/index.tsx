@@ -1,6 +1,6 @@
 import { ControlsClose } from '@heathmont/moon-icons-tw';
 import NextLink from '@/client/components/NextLink';
-import Button from "@/client/shared/button";
+import Button from "@/client/shared/Button/Button";
 
 
 const Header = () => {
