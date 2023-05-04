@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
-type itemLinkPros = {
+type Props = {
   items: string[];
   column: Boolean;
   href: string;
 };
 
-const NextLink = ({ items, column, href }: itemLinkPros) => {
+const NextLink = ({ items, column, href }: Props) => {
   return (
     <div
       className={`flex ${
