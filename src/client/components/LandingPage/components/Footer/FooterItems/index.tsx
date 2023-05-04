@@ -15,4 +15,5 @@ const FooterItems = () => (
     </div>
   </div>
 );
+
 export default FooterItems;
