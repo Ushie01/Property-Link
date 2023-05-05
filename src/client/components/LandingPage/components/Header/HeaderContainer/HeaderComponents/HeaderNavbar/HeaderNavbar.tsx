@@ -1,5 +1,5 @@
-import NextLink from "../../../../../NextLink";
-import Button from "../../../../../../shared/button";
+import NextLink from "../../../../../../NextLink";
+import Button from "../../../../../../../shared/button";
 
 
 const HeaderNavbar = () => {

@@ -1,5 +1,5 @@
 import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
-import HeaderFootItem from '../HeaderComponents/HeaderFootIteam';
+import HeaderFootItem from './HeaderItem1';
 import Button from '../../../../../../shared/button'
 
 

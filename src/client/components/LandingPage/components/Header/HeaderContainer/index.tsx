@@ -1,8 +1,8 @@
 import HeaderContainer from "./HeaderContainer";
 import HeaderNavbarContainer from "./HeaderContainer";
-import HeaderNavbar from "./HeaderNavbar/HeaderNavbar";
+import HeaderNavbar from "./HeaderComponents/HeaderNavbar/HeaderNavbar";
 import HeaderItems from "./HeaderItems";
-import HeaderFoot from "./HeaderItems/headerFoot";
+import HeaderFoot from "./HeaderItems/headerItem2";
 
 const Header = () => {
     return (
