@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/client/components/LandingPage/components/Header/HeaderContainer/HeaderItems/headerItem2.js"],
   "exclude": ["node_modules"]
 }
