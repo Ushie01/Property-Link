@@ -14,9 +14,7 @@ const SearchConatiner = () => {
 				/>
 			))}
 			<div className='flex w-1/6 items-center pr-8'>
-				<Button className='h-12 w-full rounded-[13px] bg-picollo-50'>
-					Search
-				</Button>
+				<Button className='h-12 w-full rounded-xl bg-picollo-50'>Search</Button>
 			</div>
 		</div>
 	);
