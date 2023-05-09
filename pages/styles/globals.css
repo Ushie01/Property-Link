@@ -44,6 +44,10 @@
   font-weight: 700;
 }
 
+.background-header {
+  background-color: rgba(0, 0, 0, 0.56)
+}
+
 .raleway-black {
   font-family: Raleway;
   font-weight: 900;
