@@ -1,6 +1,6 @@
 import NextLink from "@/client/components/NextLink";
 import { Button } from "@heathmont/moon-core-tw";
-import { HEADER_NAVBAR_DATA } from "../../../constants/data";
+import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
 
 const HeaderNavbar = () => {
 	return (
