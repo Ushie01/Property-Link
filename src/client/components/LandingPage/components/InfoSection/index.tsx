@@ -1,13 +1,13 @@
-import InfoSectionConnect from "./InfoSectionContainer/InfoSectionComponents/InfoSectionConnect";
-import InfoSectionProperties from "./InfoSectionContainer/InfoSectionComponents/InfoSectionProperties";
+import InfoSectionConnect from "./InfoSectionContainer/components/InfoSectionConnect";
+import InfoSectionProperties from "./InfoSectionContainer/components/InfoSectionProperties";
 
 const InfoSection = () => {
-    return (
-        <div className="bg-white p-24">
-            <InfoSectionConnect />
-            <InfoSectionProperties />
-        </div>
-    )
-}
+	return (
+		<div className='bg-white p-24'>
+			<InfoSectionConnect />
+			<InfoSectionProperties />
+		</div>
+	);
+};
 
 export default InfoSection;
