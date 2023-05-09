@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "sanity": "sanity start",
     "lint": "next lint",
     "prettier": "prettier --write './src/**/*.{ts,tsx,js,jsx}'"
   },
@@ -15,7 +14,6 @@
     "@heathmont/moon-icons-tw": "^9.28.3",
     "@heathmont/moon-themes-tw": "^9.31.1",
     "@next/font": "13.1.6",
-    "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.10.0",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
