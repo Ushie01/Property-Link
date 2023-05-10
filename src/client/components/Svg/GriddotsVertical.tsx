@@ -1,0 +1,35 @@
+const GriddotsVertical = () => (
+	<svg
+		width='48'
+		height='76'
+		viewBox='0 0 48 76'
+		fill='none'
+		xmlns='http://www.w3.org/2000/svg'
+	>
+		<circle cx='3' cy='3' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='3' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='3' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='3' r='3' fill='#D8D4FF' />
+		<circle cx='3' cy='17' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='17' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='17' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='17' r='3' fill='#D8D4FF' />
+		<circle cx='3' cy='31' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='31' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='31' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='31' r='3' fill='#D8D4FF' />
+		<circle cx='3' cy='45' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='45' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='45' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='45' r='3' fill='#D8D4FF' />
+		<circle cx='3' cy='59' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='59' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='59' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='59' r='3' fill='#D8D4FF' />
+		<circle cx='3' cy='73' r='3' fill='#D8D4FF' />
+		<circle cx='17' cy='73' r='3' fill='#D8D4FF' />
+		<circle cx='31' cy='73' r='3' fill='#D8D4FF' />
+		<circle cx='45' cy='73' r='3' fill='#D8D4FF' />
+	</svg>
+);
+export default GriddotsVertical;
