@@ -21,3 +21,18 @@ export const CONNECT_CLIENT_COMMENT = [
         text: 'Quality first, We vet all housing units with supported bodies to make sure we deliver a 100% guarantee on houses on our platform'
     }
 ];
+
+export const CLIENT_PROPERTY = [
+    {
+        image: Rectangle7,
+        text: 'Semi Detached Apartments'
+    },
+    {
+        image: Rectangle8,
+        text: '2/3 Bedroom Apartments'
+    },
+    {
+        image: Rectangle9,
+        text: 'Fully Serviced Automated Apartments'
+    }
+]
