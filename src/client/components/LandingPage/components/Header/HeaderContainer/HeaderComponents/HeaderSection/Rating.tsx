@@ -1,4 +1,4 @@
-import { RATING_DATA } from "../../../../../constants/data";
+import { RATING_DATA } from "../../../constants/data";
 
 const Rating = () => (
 	<div className='flex flex-row items-start justify-center space-x-12'>

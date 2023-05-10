@@ -25,15 +25,9 @@ module.exports = {
         picollo: {
           50: '#4E46B4',
         },
-        lightPicollo: {
-          100: '#F0EDFF'
-        },
         ghost: {
           50: '#4E46B41F',
           100: '#4E46B452'
-        },
-        lightGhost: {
-          100: '#F0EDFF'
         },
         hit: {
 
