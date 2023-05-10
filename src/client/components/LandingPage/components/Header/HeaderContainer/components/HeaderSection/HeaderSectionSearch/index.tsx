@@ -1,6 +1,6 @@
 import { Button } from "@heathmont/moon-core-tw";
 import HeaderFilter from "./HeaderFilter";
-import { SERACH_FILTER_TEXT } from "../../../../../../constants/data";
+import { SERACH_FILTER_TEXT } from '../../../../../../constants/data';
 
 const SearchConatiner = () => {
 	return (
