@@ -12,12 +12,11 @@ export const FOOTER = [
       'Mansion',
       'Penthouse',
       'Serviced Apartment',
-      'Semi-Detached Building',
+      'Semi-Detached Building',   
     ],
   },
   {
     title: 'Contact Us',
     content: ['Twitter', 'Instagram', 'Facebook', 'Whatsapp'],
   },
- 
 ];
