@@ -1,13 +1,12 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import InfoSection from "./components/InfoSection";
+// import Header from './components/Header'
 
 const LandingPage = () => {
 	return (
 		<div>
 			<Header />
-			<InfoSection />
 			<Footer />
 		</div>
 	);
