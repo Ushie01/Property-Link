@@ -1,6 +1,6 @@
 import { Button } from "@heathmont/moon-core-tw";
 import HeaderFilter from "./HeaderFilter";
-import { SERACH_FILTER_TEXT } from "../../../../constants/data";
+import { SERACH_FILTER_TEXT } from "../../../../../../constants/data";
 
 const SearchConatiner = () => {
 	return (
@@ -14,7 +14,7 @@ const SearchConatiner = () => {
 				/>
 			))}
 			<div className='flex w-1/6 items-center pr-8'>
-				<Button className='h-12 w-full rounded-[10px] bg-picollo-50'>
+				<Button className='h-12 w-full rounded-[13px] bg-picollo-50'>
 					Search
 				</Button>
 			</div>

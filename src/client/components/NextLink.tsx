@@ -15,7 +15,7 @@ const NextLink = ({ items, column, href }: Props) => {
 		>
 			{items.map((itemLink, index): any => (
 				<Link
-					className='raleway-normal translate-y-2 text-moon-16 hover:text-picollo-50 hover:duration-300'
+					className='raleway-normal translate-y-2 text-moon-16 hover:text-picollo-50 hover:scale-105 hover:duration-400'
 					href={href}
 					key={index}
 				>

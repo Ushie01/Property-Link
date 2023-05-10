@@ -1,2 +1,2 @@
-export * from "./HeaderComponents/HeaderNavbar";
-export * from "./HeaderComponents/HeaderSection";
+export * from "./components/HeaderNavbar";
+export * from "./components/HeaderSection";
