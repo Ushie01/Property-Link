@@ -1,5 +1,5 @@
-import HeaderNavbar from "./HeaderContainer/HeaderComponents/HeaderNavbar";
-import HeaderSection from "./HeaderContainer/HeaderComponents/HeaderSection";
+import HeaderNavbar from "./HeaderContainer/components/HeaderNavbar";
+import HeaderSection from "./HeaderContainer/components/HeaderSection";
 
 const Header = () => {
 	return (

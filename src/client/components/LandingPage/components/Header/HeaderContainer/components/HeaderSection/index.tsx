@@ -1,5 +1,4 @@
 import React from "react";
-import SecondButton from "@/client/shared/secondButton";
 import Image from "next/image";
 import apartmentview from "@/client/components/LandingPage/components/Header/assets/apartmentView.png";
 import ratingImg from "@/client/components/LandingPage/components/Header/assets/ratingImg.png";
