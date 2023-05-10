@@ -9,7 +9,8 @@ const Card = () => {
                 CONNECT_CLIENT_COMMENT.map((value, index) => (
                     <div key={index} className="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-md text-center space-y-5">
                         <div className="flex items-center justify-center h-16 w-16 rounded-full bg-picollo-50">
-                            <Image src={value.image} width={30} height={30} alt="svg"/>
+                           <div>{value.image}</div>
+                            {/* <Image src={value.image} width={30} height={30} alt="svg"/> */}
                         </div>
                         <p className="text-black text-2xl font-bold">{value.value}</p>
                         <p>{value.text}</p>
