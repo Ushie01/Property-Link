@@ -119,5 +119,32 @@ export const SERVICE_APARTMENT_DATA = [
 	},
 	{
 		image: RectangleC
-	}
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
 ]

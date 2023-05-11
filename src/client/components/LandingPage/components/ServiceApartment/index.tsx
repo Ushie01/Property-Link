@@ -1,9 +1,9 @@
-import Carousel from "./ServiceApartmentContainer/components/Carousel";
+import ServiceCarousel from "./ServiceApartmentContainer/components/Carousel";
 
 const ServiceApartment = () => {
     return (
-        <div className="p-9 bg-lightPicollo-100">
-           <Carousel />
+        <div className="p-16 bg-lightPicollo-100">
+           <ServiceCarousel />
         </div>
     )
 }
