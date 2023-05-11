@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CONNECT_CLIENT_COMMENT } from "../../../../../constants/data";
 
 const Card = () => {
@@ -10,7 +9,7 @@ const Card = () => {
 					className='flex flex-col items-center justify-center space-y-5 rounded-lg bg-white p-8 text-center shadow-md'
 				>
 					<div className='flex h-16 w-16 items-center justify-center rounded-full bg-picollo-50'>
-						<Image src={value.image} width={30} height={30} alt='svg' />
+						<value.image width={50} height={50} color="white" />
 					</div>
 					<p className='text-2xl font-bold text-black'>{value.value}</p>
 					<p>{value.text}</p>

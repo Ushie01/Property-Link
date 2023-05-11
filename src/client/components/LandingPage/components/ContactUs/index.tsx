@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <div className="w-1/3" >
                     <GridDots width='64' height='64' color='#424141' />
                 </div>
-                <p className='ml-6 text-3xl font-bold text-picollo-50 text-center w-2/3'>Contact Us</p>
+                <p className='ml-6 text-4xl font-bold text-picollo-50 text-center w-2/3'>Contact Us</p>
                 <div className="w-1/3"></div>
             </div>
             <div className="flex flex-col items-start justify-start mt-16">
