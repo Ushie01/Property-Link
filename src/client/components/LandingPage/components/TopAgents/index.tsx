@@ -1,3 +1,4 @@
+import { Button } from '@heathmont/moon-core-tw';
 import Card from "./TopAgentsContainer/components/Card";
 import { TOP_AGENTS } from "../../constants/data";
 import GridDots from "@/client/components/Svg/GridDots";
@@ -24,9 +25,10 @@ const TopAgent = () => {
                 ))
             }
             </div>
-            <div className="flex flex-col items-center justify-center text-black mt-24 text-center">
+            <div className="flex flex-col items-center justify-center text-black mt-16 text-center">
                 <p className="text-extrabold text-3xl">Become An Agent</p>
-                <p className="p-8">Unlock endless possibilities and unleash your full potential with a career as a real estate agent with us today, gain access to a wide variety of clients as well as resources to position you for success whether your looking to rent, lease or sell. With flexibility to set your own schedule, the potential for high earnings and the satisfaction of helping people own their homes.</p>
+                <p className="w-[1070px] mt-10">Unlock endless possibilities and unleash your full potential with a career as a real estate agent with us today, gain access to a wide variety of clients as well as resources to position you for success whether your looking to rent, lease or sell. With flexibility to set your own schedule, the potential for high earnings and the satisfaction of helping people own their homes.</p>
+                <Button className='h-12 w-64 mt-16 rounded-xl bg-hit-50 text-white'>Sign up as an Agent</Button>
             </div>
         </div>
     )
