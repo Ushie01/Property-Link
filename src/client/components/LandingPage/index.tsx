@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import InfoSection from "./components/InfoSection";
 import ContactUs from "./components/ContactUs";
 import ServiceApartment from "./components/ServiceApartment";
+import TopAgent from "./components/TopAgents";
 
 
 const LandingPage = () => {
@@ -13,6 +14,7 @@ const LandingPage = () => {
 			<InfoSection />
 			<ServiceApartment />
 			<hr />
+			<TopAgent />
 			<ContactUs />
 			<Footer />
 		</div>

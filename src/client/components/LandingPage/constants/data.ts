@@ -11,6 +11,9 @@ import Rectangle9 from "../components/InfoSection/InfoSectionContainer/constant/
 import RectangleA from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleA.png";
 import RectangleB from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleB.png";
 import RectangleC from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleC.png";
+import Rectangle14 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle14.png";
+import Rectangle15 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle15.png";
+import Rectangle16 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle16.png";
 
 
 export const RATING_DATA = [
@@ -147,4 +150,22 @@ export const SERVICE_APARTMENT_DATA = [
 	{
 		image: RectangleC
 	},
-]
+];
+
+export const TOP_AGENTS = [
+	{
+		image: Rectangle14,
+		name: 'AdeWunmi Bankole',
+		comment: 'Graduate of Unilag, Business adminsistration, Real estate Expert'
+	},
+	{
+		image: Rectangle15,
+		name: 'Joyce Richardson',
+		comment: 'Masters in Finance at Harvard. Realtor.'
+	},
+	{
+		image: Rectangle16,
+		name: 'Dennis Phillips',
+		comment: 'Experienced Surveyor with 6+ years experience drafting housing plans.'
+	}
+];
