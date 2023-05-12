@@ -115,41 +115,86 @@ export const CONTACT_US_DATA = [
 
 export const SERVICE_APARTMENT_DATA = [
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
-	},
-	{
-		image: RectangleA
-	},
-	{
-		image: RectangleB
-	},
-	{
-		image: RectangleC
-	},
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
+	}
 ];
 
 export const TOP_AGENTS = [

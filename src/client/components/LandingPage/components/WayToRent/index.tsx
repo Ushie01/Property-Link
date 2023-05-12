@@ -17,7 +17,7 @@ const WayToRent = () => {
                     <p>
                         Unlock endless possibilities and unleash your full potential with a career as a real estate agent with us today, gain access to a wide variety of clients as well as resources to position you for success whether your looking to rent, lease or sell. With flexibility to set your own schedule, the potential for high earnings and the satisfaction of helping people own their homes.
                     </p>
-                    <Button className='h-12 w-64 mt-66 rounded-xl bg-black text-white font-bold'>Sign up as an House Agent</Button>
+                    <Button className='h-12 w-64 mt-64 rounded-xl bg-black text-white font-bold'>Sign up as an House Agent</Button>
                 </div>
                 <div className="flex flex-col items-end justify-end space-y-5 w-2/5">
                     <div className="flex flex-row items-center justify-end w-full space-x-12">

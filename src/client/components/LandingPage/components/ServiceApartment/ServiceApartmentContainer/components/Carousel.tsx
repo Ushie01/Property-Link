@@ -9,7 +9,15 @@ const ServiceCarousel = () => {
       <Carousel.Reel className='p-12 space-x-3'>
         {SERVICE_APARTMENT_DATA.map((value, index) => (
           <Carousel.Item key={index} >
-                <Card value={value.image} />
+            <Card
+              image={value.image}
+              type={value.type}
+              location={value.location}
+              amount={value.amount}
+              bedroom={value.bedroom}
+              bathroom={value.bathroom}
+              swimpool={value.swimpool}
+            />
           </Carousel.Item>
         ))}
       </Carousel.Reel>
