@@ -8,7 +8,7 @@ import GriddotsVertical from "@/client/components/Svg/GriddotsVertical";
 const InfoSectionConnect = () => {
 	return (
 		<div className='mt-12 space-y-5 rounded-md bg-lightPicollo-100 p-12'>
-			<div className='-mt-20 mr-40 flex justify-end'>
+			<div className='-mt-20 mr-80 flex justify-end'>
 				<GriddotsVertical />
 			</div>
 			<InfoSectionTitle text={"What we do"} />

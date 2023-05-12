@@ -5,7 +5,7 @@ import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
 const HeaderNavbar = () => {
 	return (
 		<div className='flex w-full flex-row items-center justify-between text-white'>
-			<p className='text-xl font-bold'>LOGO.</p>
+			<p className='text-center mt-5 text-xl font-bold'>LOGO.</p>
 			<div className='justify-cneter flex w-[480px] flex-row items-center'>
 				<NextLink items={HEADER_NAVBAR_DATA} column={false} href='#' />
 			</div>

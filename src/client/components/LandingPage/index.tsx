@@ -5,6 +5,7 @@ import InfoSection from "./components/InfoSection";
 import ContactUs from "./components/ContactUs";
 import ServiceApartment from "./components/ServiceApartment";
 import TopAgent from "./components/TopAgents";
+import WayToRent from "./components/WayToRent";
 
 
 const LandingPage = () => {
@@ -15,6 +16,9 @@ const LandingPage = () => {
 			<ServiceApartment />
 			<hr />
 			<TopAgent />
+			<hr />
+			<WayToRent />
+			<hr />
 			<ContactUs />
 			<Footer />
 		</div>
