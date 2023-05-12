@@ -1,9 +1,13 @@
-import chat from "./assets/chat.svg";
-import vector from "./assets/Vector.svg";
-import crown from "./assets/crown.svg";
-import Rectangle7 from "./assets/Rectangle7.png";
-import Rectangle8 from "./assets/Rectangle8.png";
-import Rectangle9 from "./assets/Rectangle9.png";
+import {
+	DevicesPhone, 
+	MailEnvelope,
+	OtherFlame,
+	OtherCrown,
+	ChatChat
+} from '@heathmont/moon-icons-tw';
+import Rectangle7 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle7.png";
+import Rectangle8 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle8.png";
+import Rectangle9 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle9.png";
 
 export const RATING_DATA = [
 	{
@@ -19,6 +23,7 @@ export const RATING_DATA = [
 		text: "Listed Properties",
 	},
 ];
+
 export const HEADER_NAVBAR_DATA = [
 	"Agent",
 	"Properties",
@@ -46,17 +51,17 @@ export const SERACH_FILTER_TEXT = [
 
 export const CONNECT_CLIENT_COMMENT = [
 	{
-		image: chat,
+		image: ChatChat,
 		value: "Communication",
 		text: "We are the single point of contact in sync with what you truly desire. We speak your language",
 	},
 	{
-		image: vector,
+		image: OtherFlame,
 		value: "Reliability",
 		text: "We Keep our Promises and provide real time feedback and timeline that ensures that your wishes are our command",
 	},
 	{
-		image: crown,
+		image: OtherCrown,
 		value: "Quality Assurance",
 		text: "Quality first, We vet all housing units with supported bodies to make sure we deliver a 100% guarantee on houses on our platform",
 	},
@@ -76,3 +81,26 @@ export const CLIENT_PROPERTY = [
 		text: "Fully Serviced Automated Apartments",
 	},
 ];
+
+export const CONTACT_US_DATA = [
+	{
+		image: DevicesPhone,
+		text: 'Call',
+		phone: '+2348125023151'
+	},
+	{
+		image: ChatChat,
+		text: 'Chat',
+		phone: '+2348125023151'
+	},
+	{
+		image: DevicesPhone,
+		text: 'Email',
+		phone: '+2348125023151'
+	},
+		{
+		image: MailEnvelope,
+		text: 'Message',
+		phone: '+2348125023151'
+	},
+]
