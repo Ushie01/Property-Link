@@ -8,6 +8,10 @@ import {
 import Rectangle7 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle7.png";
 import Rectangle8 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle8.png";
 import Rectangle9 from "../components/InfoSection/InfoSectionContainer/constant/assets/Rectangle9.png";
+import RectangleA from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleA.png";
+import RectangleB from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleB.png";
+import RectangleC from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleC.png";
+
 
 export const RATING_DATA = [
 	{
@@ -98,9 +102,49 @@ export const CONTACT_US_DATA = [
 		text: 'Email',
 		phone: '+2348125023151'
 	},
-		{
+	{
 		image: MailEnvelope,
 		text: 'Message',
 		phone: '+2348125023151'
+	},
+];
+
+
+export const SERVICE_APARTMENT_DATA = [
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
+	},
+	{
+		image: RectangleA
+	},
+	{
+		image: RectangleB
+	},
+	{
+		image: RectangleC
 	},
 ]
