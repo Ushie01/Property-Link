@@ -7,7 +7,7 @@ import apartmentview from '../ContactUs/ContactUsContainer/assets/Group1.png';
 
 const ContactUs = () => {
     return (
-        <div className="bg-white p-24">
+        <div className="bg-white p-16">
             <div className='flex flex-row items-center'>
                 <div className="w-1/3" >
                     <GridDots width='64' height='64' color='#424141' />
@@ -16,7 +16,7 @@ const ContactUs = () => {
                 <div className="w-1/3"></div>
             </div>
             <div className="flex flex-col items-start justify-start mt-16">
-                <p className="font-bold text-xl">Reach Us With Ease 247</p>
+                <p className="font-bold text-2xl">Reach Us With Ease 247</p>
                 <p className="w-1/3 text-md mt-7">Is there a problem finding your own safe-haven? need a guide in buying or renting a property or you have residential issues, You can reach us here</p>
             </div>
             <div className="flex flex-row items-center justify-between mt-24">

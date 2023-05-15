@@ -11,6 +11,9 @@ import Rectangle9 from "../components/InfoSection/InfoSectionContainer/constant/
 import RectangleA from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleA.png";
 import RectangleB from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleB.png";
 import RectangleC from "../components/ServiceApartment/ServiceApartmentContainer/contants/assets/RectangleC.png";
+import Rectangle14 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle14.png";
+import Rectangle15 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle15.png";
+import Rectangle16 from "../components/TopAgents/TopAgentsContainer/constants/assets/Rectangle16.png";
 
 
 export const RATING_DATA = [
@@ -112,39 +115,102 @@ export const CONTACT_US_DATA = [
 
 export const SERVICE_APARTMENT_DATA = [
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleA
+		image: RectangleA,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleB
+		image: RectangleB,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
 	},
 	{
-		image: RectangleC
+		image: RectangleC,
+		type: 'Service Apartment',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		amount: '₦6,000,000.00',
+		bedroom: '5',
+		bathroom: '4',
+		swimpool: '3'
+	}
+];
+
+export const TOP_AGENTS = [
+	{
+		image: Rectangle14,
+		name: 'AdeWunmi Bankole',
+		comment: 'Graduate of Unilag, Business adminsistration, Real estate Expert'
 	},
 	{
-		image: RectangleA
+		image: Rectangle15,
+		name: 'Joyce Richardson',
+		comment: 'Masters in Finance at Harvard. Realtor.'
 	},
 	{
-		image: RectangleB
-	},
-	{
-		image: RectangleC
-	},
-]
+		image: Rectangle16,
+		name: 'Dennis Phillips',
+		comment: 'Experienced Surveyor with 6+ years experience drafting housing plans.'
+	}
+];
