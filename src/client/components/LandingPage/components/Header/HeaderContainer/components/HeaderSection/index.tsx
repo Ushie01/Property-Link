@@ -26,7 +26,7 @@ const HeaderSection = () => {
 						<Image
 							src={apartmentview}
 							alt='Image'
-							className='h-[300px] w-[500px] '
+							className='h-[250px] w-[500px] '
 						/>
 					</div>
 					<p className='hidden lg:block raleway-normal mt-8 text-xl text-white'>
