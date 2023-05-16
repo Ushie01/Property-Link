@@ -9,7 +9,6 @@ type AgentProps = {
 
 const Card = ({ img, name, comment }: AgentProps) => {
     const [isHovering, setIsHovering] = useState(false);
-
     const handleMouseEnter = () => {
         setIsHovering(true);
     };

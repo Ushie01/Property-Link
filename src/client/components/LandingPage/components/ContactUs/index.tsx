@@ -7,7 +7,7 @@ import apartmentview from '../ContactUs/ContactUsContainer/assets/Group1.png';
 
 const ContactUs = () => {
     return (
-        <div className="bg-white p-16">
+        <div className="hidden lg:block bg-white p-16">
             <div className='flex flex-row items-center'>
                 <div className="w-1/3" >
                     <GridDots width='64' height='64' color='#424141' />

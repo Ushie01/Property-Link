@@ -8,7 +8,7 @@ import Ellipse56 from "./WayToRentContainer/constants/assets/Ellipse56.png";
 
 const WayToRent = () => {
     return (
-        <div className="p-16">
+        <div className="hidden lg:block p-16">
             <div className='flex flex-row items-start justify-start'>
 				<InfoSectionTitle text={"Trusted Way to Rent, Lease or Sell your Property"} />
             </div>
