@@ -117,7 +117,7 @@ export const SERVICE_APARTMENT_DATA = [
 	{
 		image: RectangleA,
 		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos 146, Bourdillion Road, Banana Island ikoyi Lagos',
 		amount: '₦6,000,000.00',
 		bedroom: '5',
 		bathroom: '4',
@@ -126,7 +126,7 @@ export const SERVICE_APARTMENT_DATA = [
 	{
 		image: RectangleB,
 		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos 146, Bourdillion Road, Banana Island ikoyi Lagos',
 		amount: '₦6,000,000.00',
 		bedroom: '5',
 		bathroom: '4',

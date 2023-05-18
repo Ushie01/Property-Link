@@ -6,9 +6,9 @@ const ServiceCarousel = () => {
 
   return (
     <Carousel autoSlideDelay={4000} step={1}>
-      <Carousel.Reel className='p-12 space-x-3'>
+      <Carousel.Reel className='lg:p-12 space-x-3'>
         {SERVICE_APARTMENT_DATA.map((value, index) => (
-          <Carousel.Item key={index} >
+          <Carousel.Item key={index}>
             <Card
               image={value.image}
               type={value.type}
