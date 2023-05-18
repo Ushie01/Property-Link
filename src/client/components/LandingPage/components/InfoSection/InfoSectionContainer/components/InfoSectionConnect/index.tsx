@@ -12,9 +12,12 @@ const InfoSectionConnect = () => {
 			<div className='2sm:hidden lg:block -mt-20 ml-[750px] flex lg:justify-end justify-center'>
 				<GriddotsVertical />
 			</div>
-			<InfoSectionTitle text={"What we do"} />
+			<InfoSectionTitle
+				text={"What we do"}
+				color="bg-picollo-50" 
+			/>
 			<div className='flex lg:flex-row flex-col items-center justify-between 2sm:mt-7 2sm:space-y-12 lg:space-y-1'>
-				<p className='lg:w-1/2 2sm:text-center lg:text-start'>
+				<p className='lg:w-1/2 2sm:text-center lg:text-start text-xl'>
 					We connect clients with housing agents that post housing unit for
 					rent, lease or sale on our platform at the best rate.{" "}
 				</p>

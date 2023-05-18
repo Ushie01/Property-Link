@@ -10,7 +10,10 @@ const WayToRent = () => {
     return (
         <div className="hidden lg:block p-16">
             <div className='flex flex-row items-start justify-start'>
-				<InfoSectionTitle text={"Trusted Way to Rent, Lease or Sell your Property"} />
+                <InfoSectionTitle
+                    text="Trusted Way to Rent, Lease or Sell your Property"
+                    color="bg-picollo-50"
+                />
             </div>
             <div className="flex flex-row items-center justify-between mt-2">
                 <div className="w-3/6 text-2xl font-thin">

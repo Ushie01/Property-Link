@@ -1,9 +1,11 @@
 import { CLIENT_PROPERTY } from "../../../../../constants/data";
+import { Button } from '@heathmont/moon-core-tw';
 import Image from "next/image";
+
 
 const Card = () => {
 	return (
-		<div className='flex flex-col justify-center lg:flex-row items-center lg:justify-between'>
+		<div className='flex flex-col justify-center lg:flex-row items-center mb-20 lg:justify-between'>
 			{CLIENT_PROPERTY.map((value, index) => (
 				<div
 					key={index}
@@ -16,12 +18,12 @@ const Card = () => {
 						alt='svg'
 						className='rounded-md duration-150 hover:scale-105'
 					/>
-					<p className='text-wrap m-auto mt-2 text-2xl font-bold'>
+					<p className='text-wrap m-auto mt-2 text-xl font-bold w-full'>
 						{value.text}
 					</p>
-					<button className='rounded-full border-2 w-52 p-5 text-gray-500 duration-150 hover:scale-105'>
+					<Button className='rounded-full border-2 w-52 p-7 text-md text-gray-400 duration-150 font-bold hover:scale-105'>
 						263 Properties
-					</button>
+					</Button>
 				</div>
 			))}
 		</div>

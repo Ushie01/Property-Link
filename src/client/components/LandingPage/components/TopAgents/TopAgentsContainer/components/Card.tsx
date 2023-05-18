@@ -23,13 +23,12 @@ const Card = ({ img, name, comment }: AgentProps) => {
                 alt='Image'
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                className='hover:bg-gray-200 hover:opacity-95 hover:scale-110 hover:duration-300'
+                className='hover:bg-gray-200 hover:opacity-95 lg:hover:scale-110 hover:scale-105 hover:duration-300'
             />
             <div
-
-                className={`absolute flex flex-col items-start justify-start p-8 top-0 bottom-5 left-0 space-y-4 w-full h-full mt-72 ${isHovering ? 'text-picollo-50' : 'text-white'}`}>
+                className={`absolute flex flex-col items-start justify-start p-8 top-0 bottom-5 left-0 space-y-4 w-full h-full mt-72 ${isHovering ? 'text-hit-50' : 'text-white'}`}>
                 <p className={`text-2xl font-bold ${isHovering ? 'text-3xl' : 'text-white'}`}>{name}</p>
-                <p className={isHovering ? 'text-xl' : 'text-white'}>{comment}</p>
+                <p className={isHovering ? 'text-xl' : 'text-xl text-white'}>{comment}</p>
             </div>
         </div>
 
