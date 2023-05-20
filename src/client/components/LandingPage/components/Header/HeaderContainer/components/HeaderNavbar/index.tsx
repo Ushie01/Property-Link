@@ -3,33 +3,19 @@ import { GenericBurgerRegular, ControlsClose  } from '@heathmont/moon-icons-tw';
 import NextLink from "@/client/components/NextLink";
 import { Button } from "@heathmont/moon-core-tw";
 import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
-import Image from 'next/image';
+import { MobileNavbar } from './MobileNavbar';
 
 
 const HeaderNavbar = () => {
 	const [click, setClick] = useState(false);
-	const handleMenuClick = () => {
-		setClick(!click);
-	}
+	const handleMenuClick = () => {setClick(!click);}
+
 	return (
 		<>
 			{
 				click 
 					?
-					    <div className='h-screen w-full'>
-							<div className='flex flex-col items-end justify-start'>
-								<ControlsClose 
-									width={40}
-									height={40}
-									color='white'
-									className='lg:hidden'
-									onClick={handleMenuClick}
-								/>							
-						    </div>	
-							<div className='flex flex-col items-start justify-start space-y-5 w-full text-white p-5 '>
-								<NextLink items={HEADER_NAVBAR_DATA} column={true} href='#' />
-							</div>
-						</div>	
+					    <MobileNavbar onClick={handleMenuClick} />
 					:
 						<div className='flex flex-row items-center justify-between text-white'>
 							<p className='text-center text-xl 2sm:text-picollo-50 lg:text-white font-bold'>LOGO.</p>
