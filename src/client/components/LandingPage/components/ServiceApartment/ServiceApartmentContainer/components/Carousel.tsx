@@ -1,14 +1,31 @@
-import { Carousel } from '@heathmont/moon-core-tw';
+import useDeviceType from '@/client/shared/hooks/useDeviceType';
 import {SERVICE_APARTMENT_DATA} from './../../../../constants/data';
 import Card from './Card';
 
 const ServiceCarousel = () => {
+  const { isMobile } = useDeviceType();
+  const apartment = SERVICE_APARTMENT_DATA[0];
 
+  if (isMobile) {
+    const { image, type, location, amount, bedroom, bathroom, swimpool } = apartment;
+    return (
+      <div className='flex items-center justify-center'>
+        <Card
+          image={image}
+          type={type}
+          location={location}
+          amount={amount}
+          bedroom={bedroom}
+          bathroom={bathroom}
+          swimpool={swimpool}
+        />
+      </div>
+    )
+  }
   return (
-    <Carousel autoSlideDelay={4000} step={1}>
-      <Carousel.Reel className='lg:p-12 space-x-3'>
+      <div className='lg:p-16 flex lg:flex-row lg:space-x-5 items-center justify-between'>
         {SERVICE_APARTMENT_DATA.map((value, index) => (
-          <Carousel.Item key={index}>
+          <div key={index}>
             <Card
               image={value.image}
               type={value.type}
@@ -18,10 +35,10 @@ const ServiceCarousel = () => {
               bathroom={value.bathroom}
               swimpool={value.swimpool}
             />
-          </Carousel.Item>
+          </div>
         ))}
-      </Carousel.Reel>
-    </Carousel>
+      </div>
+
   );
 };
 
