@@ -25,15 +25,11 @@ export const MobileNavbar = () => {
 	return (
 		<div className='h-screen w-full'>
 			<div className='flex flex-col items-end justify-start'>
-				<Hamburguer
-					props={{
-						width: 40,
-						height: 40,
-						color: "white",
-						className: "lg:hidden",
-						onClick: handleToggle,
-					}}
-					toggle={toggle}
+				<ControlsClose
+					width={40}
+					height={40}
+					color='white'
+					onClick={handleToggle}
 				/>
 			</div>
 			<Drawer
@@ -47,16 +43,4 @@ export const MobileNavbar = () => {
 			</Drawer>
 		</div>
 	);
-};
-
-type Props = {
-	toggle: boolean;
-	props: React.SVGProps<SVGSVGElement>;
-};
-
-const Hamburguer = (props: Props) => {
-	if (props.toggle) {
-		return <ControlsClose {...props.props} />;
-	}
-	return <GenericBurgerRegular {...props.props} />;
 };
