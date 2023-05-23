@@ -7,18 +7,14 @@ import ServiceApartment from "./components/ServiceApartment";
 import TopAgent from "./components/TopAgents";
 import WayToRent from "./components/WayToRent";
 
-
 const LandingPage = () => {
 	return (
 		<div>
 			<Header />
 			<InfoSection />
 			<ServiceApartment />
-			<hr />
 			<TopAgent />
-			<hr />
 			<WayToRent />
-			<hr />
 			<ContactUs />
 			<Footer />
 		</div>
