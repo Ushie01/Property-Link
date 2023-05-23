@@ -1,0 +1,6 @@
+mutation AuthenticateMutaion($emailOrPhone:String!, $firstName:String, $userType:TypeUser!){
+  Authenticate(input:{emailOrPhone: $emailOrPhone, firstName: $firstName, userType:$userType}){
+    emailOrPhone
+    id
+  }
+}

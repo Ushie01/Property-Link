@@ -54,7 +54,7 @@ const Card = ({image, type, location, amount, bedroom, bathroom, swimpool}: Card
                 <div className='flex flex-row items-center justify-between w-full space-x-4 2sm:mt-1'>   
                     <Star size="16" rating={4} />
                     <div className='flex flex-row items-center justify-between 2sm:-ml-10 space-x-1 p-2'>
-                        <p className='text-picollo-50 lg:text-2xl 2sm:text-2xl font-bold'>{amount}</p>
+                        <p className='text-picollo-50 lg:text-22xl 2sm:text-22xl font-bold'>{amount}</p>
                         <p className='text-gray-500'> / Year</p>
                     </div>
                 </div>

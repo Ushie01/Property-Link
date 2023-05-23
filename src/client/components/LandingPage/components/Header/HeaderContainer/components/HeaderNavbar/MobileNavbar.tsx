@@ -1,7 +1,7 @@
 import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
 import { ControlsClose, GenericBurgerRegular } from "@heathmont/moon-icons-tw";
 import NextLink from "@/client/components/NextLink";
-import useMobileHeader from "./useMobileHeader";
+import useMobileHeader from "./useHeader";
 import { Drawer } from "@heathmont/moon-core-tw";
 
 export const MobileNavbar = () => {
