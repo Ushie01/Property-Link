@@ -1,38 +1,22 @@
-import { useState } from 'react';
-import Image, { StaticImageData } from 'next/image';
+import { useState } from "react";
+import Image, { StaticImageData } from "next/image";
 
 type AgentProps = {
-    img: string | StaticImageData,
-    name: string,
-    comment: string
-}
+	img: string | StaticImageData;
+	name: string;
+	comment: string;
+};
 
 const Card = ({ img, name, comment }: AgentProps) => {
-    const [isHovering, setIsHovering] = useState(false);
-    const handleMouseEnter = () => {
-        setIsHovering(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHovering(false);
-    };
-    return (
-        <div className="relative w-96">
-            <Image
-                src={img}
-                alt='Image'
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                className='hover:bg-gray-200 hover:opacity-95 lg:hover:scale-110 hover:scale-105 hover:duration-300'
-            />
-            <div
-                className={`absolute flex flex-col items-start justify-start p-8 top-0 bottom-5 left-0 space-y-4 w-full h-full mt-72 ${isHovering ? 'text-hit-50' : 'text-white'}`}>
-                <p className={`text-2xl font-bold ${isHovering ? 'text-3xl' : 'text-white'}`}>{name}</p>
-                <p className={isHovering ? 'text-xl' : 'text-xl text-white'}>{comment}</p>
-            </div>
-        </div>
-
-    )
-}
+	return (
+		<div className='relative w-96'>
+			<Image src={img} alt='Image' />
+			<div className='absolute top-0 bottom-5 left-0 flex h-full w-full flex-col items-start justify-end space-y-4 p-8 text-white'>
+				<p className='raleway-normal text-2xl font-bold'>{name}</p>
+				<p className='raleway-normal text-xl text-white'>{comment}</p>
+			</div>
+		</div>
+	);
+};
 
 export default Card;
