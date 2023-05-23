@@ -3,16 +3,16 @@ import StarEmpty from '@/client/components/Svg/StarEmpty';
 
 type StarProps = {
   size: string;
-  starFill: number;
+  rating: number;
 };
 
-const Star = ({ size, starFill }: StarProps) => {
+const Star = ({ size, rating }: StarProps) => {
   // Calculate the number of empty stars
-  const starEmpty = 5 - starFill; 
+  const starEmpty = 5 - rating; 
 
   return (
     <div className="flex flex-row space-x-1">
-      {[...Array(starFill)].map((_, index) => (
+      {[...Array(rating)].map((_, index) => (
         <StarFill key={index} height={size} width={size} color="#FFB319" />
       ))}
       {[...Array(starEmpty)].map((_, index) => (
