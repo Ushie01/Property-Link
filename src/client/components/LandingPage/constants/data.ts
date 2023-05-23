@@ -117,61 +117,7 @@ export const SERVICE_APARTMENT_DATA = [
 	{
 		image: RectangleA,
 		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleB,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleC,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleA,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleB,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleC,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
-		amount: '₦6,000,000.00',
-		bedroom: '5',
-		bathroom: '4',
-		swimpool: '3'
-	},
-	{
-		image: RectangleA,
-		type: 'Service Apartment',
-		location: '146, Bourdillion Road, Banana Island ikoyi Lagos',
+		location: '146, Bourdillion Road, Banana Island ikoyi Lagos ',
 		amount: '₦6,000,000.00',
 		bedroom: '5',
 		bathroom: '4',
@@ -214,3 +160,4 @@ export const TOP_AGENTS = [
 		comment: 'Experienced Surveyor with 6+ years experience drafting housing plans.'
 	}
 ];
+

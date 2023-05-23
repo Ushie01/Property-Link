@@ -7,7 +7,7 @@ const Card = () => {
         <>
             {
                 CONTACT_US_DATA.map((value, index) => (
-                    <div key={index} className="flex flex-col items-center justify-center border p-4 space-y-5 rounded-lg">
+                    <div key={index} className="flex flex-col items-center justify-center border lg:p-4 p-8 space-y-5 rounded-lg">
                         <div className="flex flex-row items-center justify-center space-x-5">
                             <div className="flex items-center justify-center h-16 w-16 rounded-full bg-lightPicollo-100">
                                 <value.image height={40} width={40} className="text-picollo-50" />

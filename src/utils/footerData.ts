@@ -1,6 +1,6 @@
 export const FOOTER = [
     {
-      title: 'Company',
+      title: 'About Us',
       content: ['About Us', 'Features', 'News & Blog', 'Projects', 'Partnership'],
     },
     {
