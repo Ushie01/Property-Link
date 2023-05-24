@@ -1,11 +1,13 @@
 import NextLink from "@/client/components/NextLink";
-import { Button } from "@heathmont/moon-core-tw";
 import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
 import { MobileNavbar } from "./MobileNavbar";
 import useDeviceType from "@/client/shared/hooks/useDeviceType";
+import useHeader from "./useHeader";
+import SignUpButton from "./SignupButton";
 
 const HeaderNavbar = () => {
 	const { isMobile } = useDeviceType();
+	const { handleOpenModal } = useHeader();
 
 	if (isMobile) {
 		return <MobileNavbar />;
@@ -19,9 +21,12 @@ const HeaderNavbar = () => {
 			<div className='flex w-[480px] flex-row  items-center 2sm:hidden lg:block'>
 				<NextLink items={HEADER_NAVBAR_DATA} column={false} href='#' />
 			</div>
-			<Button className='hidden h-[50px] w-[148px] rounded-xl  bg-picollo-50 px-6 py-4 lg:block'>
-				<p className='text-md font-bold'>Sign Up</p>
-			</Button>
+			<div className='flex justify-end'>
+				<SignUpButton
+					title='Sign up'
+					className='raleway-bold rounded-xl bg-picollo-50 px-6 py-2 text-sm text-white shadow-xl lg:block'
+				/>
+			</div>
 		</div>
 	);
 };

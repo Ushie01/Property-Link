@@ -1,0 +1,15 @@
+query InfoSectionQuery {
+		agents {
+			properties {
+				name
+			}
+		}
+		agents {
+			user {
+				emailOrPhone
+				lastName
+        firstName
+				sessionId
+			}
+		}
+	}

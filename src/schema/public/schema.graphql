@@ -1,0 +1,100 @@
+type AgentProfile {
+  id: ID!
+  properties: [Property!]!
+  user: User!
+  userId: ID!
+}
+
+input AuthenticateInput {
+  emailOrPhone: String!
+  firstName: String
+  lastName: String
+  role: Roles! = USER
+  userType: TypeUser!
+}
+
+"""
+The `BigInt` scalar type represents non-fractional signed whole numeric values.
+"""
+scalar BigInt
+
+"""
+A date string, such as 2007-12-03, compliant with the `full-date` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.
+"""
+scalar Date
+
+type Mutation {
+  Authenticate(input: AuthenticateInput!): User!
+  createProperty(input: PropertyInput!): Property!
+  verifyOTP(input: VerifyOtpInput!): User!
+}
+
+type Property {
+  agent: AgentProfile!
+  agentId: ID!
+  amenities: [String!]!
+  createdAt: Date!
+  description: String!
+  id: ID!
+  name: String!
+  price: BigInt!
+  roomImages: [String!]!
+  status: Boolean!
+}
+
+input PropertyInput {
+  amenities: [String!]!
+  description: String!
+  name: String!
+  price: BigInt!
+  roomImages: [String!]!
+  status: Boolean!
+}
+
+type Query {
+  agents: [AgentProfile!]!
+}
+
+enum Role {
+  ADMIN
+  SUPER_ADMIN
+  USER
+}
+
+enum Roles {
+  ADMIN
+  SUPER_ADMIN
+  USER
+}
+
+enum TypeUser {
+  AGENT
+  HOUSE_OWNER
+  TENANT
+}
+
+type User {
+  agentProfile: [AgentProfile!]!
+  createdAt: Date!
+  emailOrPhone: String!
+  expireTime: BigInt
+  firstName: String
+  id: ID!
+  lastName: String
+  otpHash: String
+  role: Roles!
+  sessionId: ID
+  token: String
+  userType: TypeUser!
+}
+
+enum UserType {
+  AGENT
+  HOUSE_OWNER
+  TENANT
+}
+
+input VerifyOtpInput {
+  id: Int!
+  otp: String!
+}
