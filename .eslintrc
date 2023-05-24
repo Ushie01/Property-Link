@@ -50,6 +50,7 @@
       "curly": "error",
       "no-extra-boolean-cast": "error",
       "no-useless-return": "error",
+      
   
       // Typescript rules
       "disable-autofix/@typescript-eslint/no-unnecessary-condition": "warn",
