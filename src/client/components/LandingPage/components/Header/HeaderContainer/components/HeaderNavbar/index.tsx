@@ -2,12 +2,10 @@ import NextLink from "@/client/components/NextLink";
 import { HEADER_NAVBAR_DATA } from "../../../../../constants/data";
 import { MobileNavbar } from "./MobileNavbar";
 import useDeviceType from "@/client/shared/hooks/useDeviceType";
-import useHeader from "./useHeader";
 import SignUpButton from "./SignupButton";
 
 const HeaderNavbar = () => {
 	const { isMobile } = useDeviceType();
-	const { handleOpenModal } = useHeader();
 
 	if (isMobile) {
 		return <MobileNavbar />;

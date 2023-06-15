@@ -9,9 +9,7 @@ const useHeader = () => {
 	};
 
 	const handleOpenModal = () => {
-		console.log("first");
 		setIsOpen(!isOpen);
-		console.log(isOpen);
 	};
 
 	return {
