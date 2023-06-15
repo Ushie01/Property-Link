@@ -1,19 +1,23 @@
 import Card from "./Card";
 import Image from "next/image";
 import Frame24 from "./../../assests/Frame24.svg";
+import GridDots from "@/client/components/Svg/GridDots";
 import { InfoSectionTitle } from "../InfoSectionTitle";
 import Ellipse from "@/client/components/Svg/Ellipse";
 import GriddotsVertical from "@/client/components/Svg/GriddotsVertical";
 
 const InfoSectionConnect = () => {
 	return (
-		<div className='mt-12 space-y-5 rounded-md bg-lightPicollo-100 p-12'>
-			<div className='-mt-20 mr-40 flex justify-end'>
+		<div className='lg:mt-12 lg:rounded-md 2sm:w-full bg-lightPicollo-100 lg:p-12 p-6 2sm:pt-12 2sm:pb-16'>
+			<div className='2sm:hidden lg:block -mt-20 ml-[750px] flex lg:justify-end justify-center'>
 				<GriddotsVertical />
 			</div>
-			<InfoSectionTitle text={"What we do"} />
-			<div className='flex flex-row items-center justify-between'>
-				<p className='w-1/2'>
+			<InfoSectionTitle
+				text={"What we do"}
+				color="bg-picollo-50" 
+			/>
+			<div className='flex lg:flex-row flex-col items-center justify-between 2sm:mt-7 2sm:space-y-12 lg:space-y-1'>
+				<p className='lg:w-1/2 2sm:text-center lg:text-start text-xl'>
 					We connect clients with housing agents that post housing unit for
 					rent, lease or sale on our platform at the best rate.{" "}
 				</p>
@@ -22,8 +26,11 @@ const InfoSectionConnect = () => {
 				</button>
 			</div>
 			<div className='relative'>
-				<div className='flex items-center justify-center'>
+				<div className='2sm:hidden lg:flex lg:items-center lg:justify-center'>
 					<Ellipse />
+				</div>
+				<div className='lg:hidden flex lg:justify-center justify-center 2sm:mt-8'>
+					<GriddotsVertical />
 				</div>
 				<Card />
 			</div>

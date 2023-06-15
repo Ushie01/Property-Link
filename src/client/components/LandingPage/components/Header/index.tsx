@@ -3,8 +3,8 @@ import HeaderSection from "./HeaderContainer/components/HeaderSection";
 
 const Header = () => {
 	return (
-		<div className='bg-gradient-to-tl from-black  to-[#23222F] p-7 lg:block lg:p-8 lg:text-white'>
-			<div className='hidden p-7 pl-20 pr-20 lg:block'>
+		<div className='bg-gradient-to-tl from-black to-[#23222F] lg:p-7 2sm:p-5 lg:text-white'>
+			<div className='lg:pl-12 lg:pr-12 lg:block 2sm:w-full'>
 				<HeaderNavbar />
 				<HeaderSection />
 			</div>

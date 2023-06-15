@@ -3,7 +3,7 @@ import InfoSectionProperties from "./InfoSectionContainer/components/InfoSection
 
 const InfoSection = () => {
 	return (
-		<div className='bg-white p-24'>
+		<div className='bg-white lg:p-16'>
 			<InfoSectionConnect />
 			<InfoSectionProperties />
 		</div>

@@ -10,7 +10,7 @@ const NextLink = ({ items, column, href }: Props) => {
 	return (
 		<div
 			className={`flex ${
-				column ? `flex-col space-y-3` : `flex-row space-x-12 text-xs`
+				column ? `flex-col space-y-7` : `flex-row space-x-12 text-xs`
 			}`}
 		>
 			{items.map((itemLink, index): any => (
