@@ -6,17 +6,22 @@ import ContactUs from "./components/ContactUs";
 import ServiceApartment from "./components/ServiceApartment";
 import TopAgent from "./components/TopAgents";
 import WayToRent from "./components/WayToRent";
+import AuthStepsProvider from "../Auth/context/AuthStepsProvider";
+import Authenticate from "../Auth";
 
 const LandingPage = () => {
 	return (
 		<div>
-			<Header />
-			<InfoSection />
-			<ServiceApartment />
-			<TopAgent />
-			<WayToRent />
-			<ContactUs />
-			<Footer />
+			<AuthStepsProvider>
+				<Header />
+				<InfoSection />
+				<ServiceApartment />
+				<TopAgent />
+				<WayToRent />
+				<ContactUs />
+				<Footer />
+				<Authenticate />
+			</AuthStepsProvider>
 		</div>
 	);
 };

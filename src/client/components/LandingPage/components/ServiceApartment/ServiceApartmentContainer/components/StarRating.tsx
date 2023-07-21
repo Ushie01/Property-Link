@@ -1,26 +1,35 @@
-import StarFill from '@/client/components/Svg/StarFill';
-import StarEmpty from '@/client/components/Svg/StarEmpty';
+import { GenericStar } from "@heathmont/moon-icons-tw";
 
 type StarProps = {
-  size: string;
-  rating: number;
+	rating: number;
 };
 
-const Star = ({ size, rating }: StarProps) => {
-  // Calculate the number of empty stars
-  const starEmpty = 5 - rating; 
+const Star = ({ rating }: StarProps) => {
+	const fullStarCount = Math.floor(rating);
+	const emptyStarCount = 5 - fullStarCount;
 
-  return (
-    <div className="flex flex-row space-x-1">
-      {[...Array(rating)].map((_, index) => (
-        <StarFill key={index} height={size} width={size} color="#FFB319" />
-      ))}
-      {[...Array(starEmpty)].map((_, index) => (
-        <StarEmpty key={index} height={size} width={size} color="#FFB319" />
-      ))}
-    </div>
-  );
+	return (
+		<div className='flex flex-row'>
+			{[...Array(fullStarCount)].map((_, index) => (
+				<GenericStar
+					key={index}
+					fill='#FFB319'
+					color='#ffb319'
+					height='24'
+					width='24'
+				/>
+			))}
+			{[...Array(emptyStarCount)].map((_, index) => (
+				<GenericStar
+					className='bi bi-star-fill'
+					key={index}
+					height='24'
+					width='24'
+					color='#FFB319'
+				/>
+			))}
+		</div>
+	);
 };
 
 export default Star;
-

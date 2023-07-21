@@ -15,8 +15,8 @@ const WayToRent = () => {
 				/>
 			</div>
 			<div className='-mt-20 flex flex-row items-center justify-between'>
-				<div className='w-1/2 space-y-40 text-2xl'>
-					<p className='raleway-normal tracking-widest'>
+				<div className='w-1/2 space-y-40 '>
+					<p className='raleway-light text-2xl tracking-wide'>
 						Unlock endless possibilities and unleash your full potential with a
 						career as a real estate agent with us today, gain access to a wide
 						variety of clients as well as resources to position you for success
